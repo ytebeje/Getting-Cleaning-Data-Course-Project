@@ -1,0 +1,33 @@
+Tables Created 
+
+features :  lists down all the features.txt data
+
+activityLabels: lists down all the activity label data
+
+subjectTrain: lists down all the subject_train.txt
+
+xTrain: lists down all x_train.txt
+
+yTrain: lists down ally_train.txt
+
+xTest: lists down all x_test.txt
+
+yTest: lists down ally_test.txt
+
+MergedData : The entire data includes both train and test and the above tables
+
+mean_std: a List that contains the mean and standard deviation.
+
+TidyData: output file
+
+
+Column Names Created
+
+activityId: First Column of Activity Labels
+
+activityType: Secod column of activity tables 
+
+subjectId: Column of Subject Train/Test Table
+
+# Export the tidyData set 
+write.table(tidyData, './tidyData.txt',row.names=FALSE,sep='\t');
