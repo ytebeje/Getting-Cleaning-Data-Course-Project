@@ -16,6 +16,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Steps Taken
 
 Step Zero : Read the data and assigned column names for each file
+
 Step One:   Merge the training and the test sets to create one data set. 
 
 STEP TWO:   Extracts only the measurements on the mean and standard deviation for each measurement. 
